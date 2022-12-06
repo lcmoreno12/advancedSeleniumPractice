@@ -14,7 +14,8 @@ public class PositiveLogInTests extends TestUtilities {
 	@Test
 	public void logInTest() {
 		log.info("Starting logIn test");
-
+		
+		
 		// open main page
 		String url = "http://the-internet.herokuapp.com/";
 		driver.get(url);
